@@ -1,0 +1,1910 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="acessos.aspx">
+      <publishTime>06/11/2018 21:39:26</publishTime>
+    </File>
+    <File Include="administrador.aspx">
+      <publishTime>06/11/2018 21:40:05</publishTime>
+    </File>
+    <File Include="assets/css/font-awesome.min.css">
+      <publishTime>06/09/2017 09:29:12</publishTime>
+    </File>
+    <File Include="assets/css/ie8.css">
+      <publishTime>06/09/2017 09:29:12</publishTime>
+    </File>
+    <File Include="assets/css/ie9.css">
+      <publishTime>06/09/2017 09:29:12</publishTime>
+    </File>
+    <File Include="assets/css/main.css">
+      <publishTime>06/09/2017 09:29:12</publishTime>
+    </File>
+    <File Include="assets/fonts/fontawesome-webfont.eot">
+      <publishTime>06/09/2017 09:29:12</publishTime>
+    </File>
+    <File Include="assets/fonts/fontawesome-webfont.svg">
+      <publishTime>06/09/2017 09:29:12</publishTime>
+    </File>
+    <File Include="assets/fonts/fontawesome-webfont.ttf">
+      <publishTime>06/09/2017 09:29:12</publishTime>
+    </File>
+    <File Include="assets/fonts/fontawesome-webfont.woff">
+      <publishTime>06/09/2017 09:29:12</publishTime>
+    </File>
+    <File Include="assets/fonts/fontawesome-webfont.woff2">
+      <publishTime>06/09/2017 09:29:12</publishTime>
+    </File>
+    <File Include="assets/fonts/FontAwesome.otf">
+      <publishTime>06/09/2017 09:29:12</publishTime>
+    </File>
+    <File Include="assets/js/ie/backgroundsize.min.htc">
+      <publishTime>06/09/2017 09:29:10</publishTime>
+    </File>
+    <File Include="assets/js/ie/html5shiv.js">
+      <publishTime>06/09/2017 09:29:10</publishTime>
+    </File>
+    <File Include="assets/js/ie/PIE.htc">
+      <publishTime>06/09/2017 09:29:10</publishTime>
+    </File>
+    <File Include="assets/js/ie/respond.min.js">
+      <publishTime>06/09/2017 09:29:10</publishTime>
+    </File>
+    <File Include="assets/js/jquery.cookie.js">
+      <publishTime>03/20/2018 21:55:54</publishTime>
+    </File>
+    <File Include="assets/js/jquery.min.js">
+      <publishTime>06/09/2017 09:29:10</publishTime>
+    </File>
+    <File Include="assets/js/jquery.scrollex.min.js">
+      <publishTime>06/09/2017 09:29:10</publishTime>
+    </File>
+    <File Include="assets/js/main.js">
+      <publishTime>06/09/2017 09:29:10</publishTime>
+    </File>
+    <File Include="assets/js/saveconfig.js">
+      <publishTime>07/29/2018 16:52:50</publishTime>
+    </File>
+    <File Include="assets/js/skel.min.js">
+      <publishTime>06/09/2017 09:29:10</publishTime>
+    </File>
+    <File Include="assets/js/util.js">
+      <publishTime>06/09/2017 09:29:10</publishTime>
+    </File>
+    <File Include="assets/sass/base/_page.scss">
+      <publishTime>06/09/2017 09:29:12</publishTime>
+    </File>
+    <File Include="assets/sass/base/_typography.scss">
+      <publishTime>06/09/2017 09:29:12</publishTime>
+    </File>
+    <File Include="assets/sass/components/_box.scss">
+      <publishTime>06/09/2017 09:29:10</publishTime>
+    </File>
+    <File Include="assets/sass/components/_button.scss">
+      <publishTime>06/09/2017 09:29:10</publishTime>
+    </File>
+    <File Include="assets/sass/components/_features.scss">
+      <publishTime>06/09/2017 09:29:10</publishTime>
+    </File>
+    <File Include="assets/sass/components/_form.scss">
+      <publishTime>06/09/2017 09:29:10</publishTime>
+    </File>
+    <File Include="assets/sass/components/_icon.scss">
+      <publishTime>06/09/2017 09:29:10</publishTime>
+    </File>
+    <File Include="assets/sass/components/_image.scss">
+      <publishTime>06/09/2017 09:29:10</publishTime>
+    </File>
+    <File Include="assets/sass/components/_list.scss">
+      <publishTime>06/09/2017 09:29:10</publishTime>
+    </File>
+    <File Include="assets/sass/components/_section.scss">
+      <publishTime>06/09/2017 09:29:10</publishTime>
+    </File>
+    <File Include="assets/sass/components/_table.scss">
+      <publishTime>06/09/2017 09:29:10</publishTime>
+    </File>
+    <File Include="assets/sass/ie8.scss">
+      <publishTime>06/09/2017 09:29:10</publishTime>
+    </File>
+    <File Include="assets/sass/ie9.scss">
+      <publishTime>06/09/2017 09:29:10</publishTime>
+    </File>
+    <File Include="assets/sass/layout/_banner.scss">
+      <publishTime>06/09/2017 09:29:10</publishTime>
+    </File>
+    <File Include="assets/sass/layout/_footer.scss">
+      <publishTime>06/09/2017 09:29:10</publishTime>
+    </File>
+    <File Include="assets/sass/layout/_header.scss">
+      <publishTime>06/09/2017 09:29:10</publishTime>
+    </File>
+    <File Include="assets/sass/layout/_menu.scss">
+      <publishTime>06/09/2017 09:29:12</publishTime>
+    </File>
+    <File Include="assets/sass/layout/_wrapper.scss">
+      <publishTime>06/09/2017 09:29:12</publishTime>
+    </File>
+    <File Include="assets/sass/llbs/_functions.scss">
+      <publishTime>06/09/2017 09:29:10</publishTime>
+    </File>
+    <File Include="assets/sass/llbs/_mixins.scss">
+      <publishTime>06/09/2017 09:29:10</publishTime>
+    </File>
+    <File Include="assets/sass/llbs/_skel.scss">
+      <publishTime>06/09/2017 09:29:10</publishTime>
+    </File>
+    <File Include="assets/sass/llbs/_vars.scss">
+      <publishTime>06/09/2017 09:29:10</publishTime>
+    </File>
+    <File Include="assets/sass/main.scss">
+      <publishTime>06/09/2017 09:29:10</publishTime>
+    </File>
+    <File Include="ativar.aspx">
+      <publishTime>06/11/2018 21:39:59</publishTime>
+    </File>
+    <File Include="Audio/Audio 01.html">
+      <publishTime>06/09/2017 09:29:22</publishTime>
+    </File>
+    <File Include="Audio/Audio 11.html">
+      <publishTime>06/09/2017 09:29:24</publishTime>
+    </File>
+    <File Include="Audio/Audio 12.html">
+      <publishTime>06/09/2017 09:29:12</publishTime>
+    </File>
+    <File Include="Audio/Audio 13.html">
+      <publishTime>06/09/2017 09:29:24</publishTime>
+    </File>
+    <File Include="Audio/Audio 14.html">
+      <publishTime>06/09/2017 09:29:12</publishTime>
+    </File>
+    <File Include="Audio/Audio 15.html">
+      <publishTime>06/09/2017 09:29:12</publishTime>
+    </File>
+    <File Include="Audio/Audio 16.html">
+      <publishTime>06/09/2017 09:29:16</publishTime>
+    </File>
+    <File Include="Audio/Audio 17.html">
+      <publishTime>06/09/2017 09:29:22</publishTime>
+    </File>
+    <File Include="Audio/Audio 18.html">
+      <publishTime>06/09/2017 09:29:12</publishTime>
+    </File>
+    <File Include="Audio/Audio 19.html">
+      <publishTime>06/09/2017 09:29:16</publishTime>
+    </File>
+    <File Include="Audio/Audio 2.html">
+      <publishTime>06/09/2017 09:29:12</publishTime>
+    </File>
+    <File Include="Audio/Audio 20.html">
+      <publishTime>06/09/2017 09:29:22</publishTime>
+    </File>
+    <File Include="Audio/Audio 21.html">
+      <publishTime>06/09/2017 09:29:22</publishTime>
+    </File>
+    <File Include="Audio/Audio 22.html">
+      <publishTime>06/09/2017 09:29:16</publishTime>
+    </File>
+    <File Include="Audio/Audio 23.html">
+      <publishTime>06/09/2017 09:29:22</publishTime>
+    </File>
+    <File Include="Audio/Audio 24.html">
+      <publishTime>06/09/2017 09:29:12</publishTime>
+    </File>
+    <File Include="Audio/Audio 25.html">
+      <publishTime>06/09/2017 09:29:18</publishTime>
+    </File>
+    <File Include="Audio/Audio 26.html">
+      <publishTime>06/09/2017 09:29:18</publishTime>
+    </File>
+    <File Include="Audio/Audio 27.html">
+      <publishTime>06/09/2017 09:29:22</publishTime>
+    </File>
+    <File Include="Audio/Audio 28.html">
+      <publishTime>06/09/2017 09:29:12</publishTime>
+    </File>
+    <File Include="Audio/Audio 29.html">
+      <publishTime>06/09/2017 09:29:24</publishTime>
+    </File>
+    <File Include="Audio/Audio 3.html">
+      <publishTime>06/09/2017 09:29:24</publishTime>
+    </File>
+    <File Include="Audio/Audio 30.html">
+      <publishTime>06/09/2017 09:29:22</publishTime>
+    </File>
+    <File Include="Audio/Audio 31.html">
+      <publishTime>06/09/2017 09:29:26</publishTime>
+    </File>
+    <File Include="Audio/Audio 32.html">
+      <publishTime>06/09/2017 09:29:12</publishTime>
+    </File>
+    <File Include="Audio/Audio 33.html">
+      <publishTime>06/09/2017 09:29:22</publishTime>
+    </File>
+    <File Include="Audio/Audio 34.html">
+      <publishTime>06/09/2017 09:29:26</publishTime>
+    </File>
+    <File Include="Audio/Audio 35.html">
+      <publishTime>06/09/2017 09:29:22</publishTime>
+    </File>
+    <File Include="Audio/Audio 4.html">
+      <publishTime>06/09/2017 09:29:16</publishTime>
+    </File>
+    <File Include="Audio/Audio 5.html">
+      <publishTime>06/09/2017 09:29:16</publishTime>
+    </File>
+    <File Include="Audio/Audio 6.html">
+      <publishTime>06/09/2017 09:29:12</publishTime>
+    </File>
+    <File Include="Audio/Audio 7.html">
+      <publishTime>06/09/2017 09:29:22</publishTime>
+    </File>
+    <File Include="Audio/Audio 8.html">
+      <publishTime>06/09/2017 09:29:16</publishTime>
+    </File>
+    <File Include="Audio/Audio 9.html">
+      <publishTime>06/09/2017 09:29:24</publishTime>
+    </File>
+    <File Include="Audio/Audio One.html">
+      <publishTime>06/09/2017 09:29:12</publishTime>
+    </File>
+    <File Include="Audio/Lesson 01.mp3">
+      <publishTime>06/09/2017 09:29:22</publishTime>
+    </File>
+    <File Include="Audio/Lesson 02.mp3">
+      <publishTime>06/09/2017 09:29:16</publishTime>
+    </File>
+    <File Include="Audio/Lesson 03.mp3">
+      <publishTime>06/09/2017 09:29:26</publishTime>
+    </File>
+    <File Include="Audio/Lesson 04.mp3">
+      <publishTime>06/09/2017 09:29:24</publishTime>
+    </File>
+    <File Include="Audio/Lesson 05.mp3">
+      <publishTime>06/09/2017 09:29:22</publishTime>
+    </File>
+    <File Include="Audio/Lesson 06.mp3">
+      <publishTime>06/09/2017 09:29:26</publishTime>
+    </File>
+    <File Include="Audio/Lesson 1.mp3">
+      <publishTime>06/09/2017 09:29:18</publishTime>
+    </File>
+    <File Include="bin/wording.dll">
+      <publishTime>09/03/2018 21:48:54</publishTime>
+    </File>
+    <File Include="books/B2/B2L11/images/11.7.png">
+      <publishTime>06/09/2017 09:30:48</publishTime>
+    </File>
+    <File Include="books/B2/B2L11/images/booklesson.jpg">
+      <publishTime>06/09/2017 09:30:48</publishTime>
+    </File>
+    <File Include="books/B2/B2L11/images/exer11.8.jpg">
+      <publishTime>06/09/2017 09:30:48</publishTime>
+    </File>
+    <File Include="books/B2/B2L11/images/topolessonEleven.png">
+      <publishTime>06/09/2017 09:30:48</publishTime>
+    </File>
+    <File Include="books/B2/B2L11/images/topopagina.png">
+      <publishTime>06/09/2017 09:30:48</publishTime>
+    </File>
+    <File Include="books/B2/B2L12/12.11.jpg">
+      <publishTime>06/09/2017 09:30:46</publishTime>
+    </File>
+    <File Include="books/B2/B2L12/12.14.jpg">
+      <publishTime>06/09/2017 09:30:48</publishTime>
+    </File>
+    <File Include="books/B2/B2L12/12.15.jpg">
+      <publishTime>06/09/2017 09:30:48</publishTime>
+    </File>
+    <File Include="books/B2/B2L12/12.16.jpg">
+      <publishTime>06/09/2017 09:30:48</publishTime>
+    </File>
+    <File Include="books/B2/B2L12/12.17.jpg">
+      <publishTime>06/09/2017 09:30:48</publishTime>
+    </File>
+    <File Include="books/B2/B2L12/12.17a.jpg">
+      <publishTime>06/09/2017 09:30:48</publishTime>
+    </File>
+    <File Include="books/B2/B2L12/12.18.jpg">
+      <publishTime>06/09/2017 09:30:48</publishTime>
+    </File>
+    <File Include="books/B2/B2L12/12.19.jpg">
+      <publishTime>06/09/2017 09:30:48</publishTime>
+    </File>
+    <File Include="books/B2/B2L12/12.1a.jpg">
+      <publishTime>06/09/2017 09:30:48</publishTime>
+    </File>
+    <File Include="books/B2/B2L12/12.1c.jpg">
+      <publishTime>06/09/2017 09:30:48</publishTime>
+    </File>
+    <File Include="books/B2/B2L12/12.20.jpg">
+      <publishTime>06/09/2017 09:30:46</publishTime>
+    </File>
+    <File Include="books/B2/B2L12/12.21.jpg">
+      <publishTime>06/09/2017 09:30:46</publishTime>
+    </File>
+    <File Include="books/B2/B2L12/12.22.jpg">
+      <publishTime>06/09/2017 09:30:48</publishTime>
+    </File>
+    <File Include="books/B2/B2L12/12.23.jpg">
+      <publishTime>06/09/2017 09:30:48</publishTime>
+    </File>
+    <File Include="books/B2/B2L12/12CommunicationLoveHate.jpg">
+      <publishTime>06/09/2017 09:30:48</publishTime>
+    </File>
+    <File Include="books/B2/B2L12/basketball.png">
+      <publishTime>06/09/2017 09:30:48</publishTime>
+    </File>
+    <File Include="books/B2/B2L12/Bkgpg01.jpg">
+      <publishTime>06/09/2017 09:30:46</publishTime>
+    </File>
+    <File Include="books/B2/B2L12/bodybuilding.png">
+      <publishTime>06/09/2017 09:30:48</publishTime>
+    </File>
+    <File Include="books/B2/B2L12/bowling.jpg">
+      <publishTime>06/09/2017 09:30:48</publishTime>
+    </File>
+    <File Include="books/B2/B2L12/boxing.png">
+      <publishTime>06/09/2017 09:30:48</publishTime>
+    </File>
+    <File Include="books/B2/B2L12/canCould.jpg">
+      <publishTime>06/09/2017 09:30:48</publishTime>
+    </File>
+    <File Include="books/B2/B2L12/climbing.png">
+      <publishTime>06/09/2017 09:30:48</publishTime>
+    </File>
+    <File Include="books/B2/B2L12/cycling.jpg">
+      <publishTime>06/09/2017 09:30:48</publishTime>
+    </File>
+    <File Include="books/B2/B2L12/exercises.jpg">
+      <publishTime>06/09/2017 09:30:48</publishTime>
+    </File>
+    <File Include="books/B2/B2L12/fishing.jpg">
+      <publishTime>06/09/2017 09:30:48</publishTime>
+    </File>
+    <File Include="books/B2/B2L12/golf.png">
+      <publishTime>06/09/2017 09:30:48</publishTime>
+    </File>
+    <File Include="books/B2/B2L12/grammarFocus.jpg">
+      <publishTime>06/09/2017 09:30:48</publishTime>
+    </File>
+    <File Include="books/B2/B2L12/gymnastics.png">
+      <publishTime>06/09/2017 09:30:46</publishTime>
+    </File>
+    <File Include="books/B2/B2L12/hangGliding.png">
+      <publishTime>06/09/2017 09:30:46</publishTime>
+    </File>
+    <File Include="books/B2/B2L12/LindaMurray.jpg">
+      <publishTime>06/09/2017 09:30:48</publishTime>
+    </File>
+    <File Include="books/B2/B2L12/racingcar.png">
+      <publishTime>06/09/2017 09:30:48</publishTime>
+    </File>
+    <File Include="books/B2/B2L12/running.jpg">
+      <publishTime>06/09/2017 09:30:46</publishTime>
+    </File>
+    <File Include="books/B2/B2L12/sailing.jpg">
+      <publishTime>06/09/2017 09:30:48</publishTime>
+    </File>
+    <File Include="books/B2/B2L12/skating.png">
+      <publishTime>06/09/2017 09:30:48</publishTime>
+    </File>
+    <File Include="books/B2/B2L12/skiing.png">
+      <publishTime>06/09/2017 09:30:48</publishTime>
+    </File>
+    <File Include="books/B2/B2L12/summary12.jpg">
+      <publishTime>06/09/2017 09:30:48</publishTime>
+    </File>
+    <File Include="books/B2/B2L12/summaryGrammar.jpg">
+      <publishTime>06/09/2017 09:30:48</publishTime>
+    </File>
+    <File Include="books/B2/B2L12/summaryPronunciation.jpg">
+      <publishTime>06/09/2017 09:30:48</publishTime>
+    </File>
+    <File Include="books/B2/B2L12/summaryVocabulary.jpg">
+      <publishTime>06/09/2017 09:30:48</publishTime>
+    </File>
+    <File Include="books/B2/B2L12/tagLesson12.jpg">
+      <publishTime>06/09/2017 09:30:48</publishTime>
+    </File>
+    <File Include="books/B2/B2L12/tennis.jpg">
+      <publishTime>06/09/2017 09:30:46</publishTime>
+    </File>
+    <File Include="books/B2/B2L12/tennis.png">
+      <publishTime>06/09/2017 09:30:46</publishTime>
+    </File>
+    <File Include="books/B2/B2L13/13.10 words.jpg">
+      <publishTime>06/09/2017 09:30:46</publishTime>
+    </File>
+    <File Include="books/B2/B2L13/13.10.jpg">
+      <publishTime>06/09/2017 09:30:46</publishTime>
+    </File>
+    <File Include="books/B2/B2L13/13.12a.jpg">
+      <publishTime>06/09/2017 09:30:46</publishTime>
+    </File>
+    <File Include="books/B2/B2L13/13.12aimage.jpg">
+      <publishTime>06/09/2017 09:30:46</publishTime>
+    </File>
+    <File Include="books/B2/B2L13/13.12b.jpg">
+      <publishTime>06/09/2017 09:30:44</publishTime>
+    </File>
+    <File Include="books/B2/B2L13/13.13.jpg">
+      <publishTime>06/09/2017 09:30:44</publishTime>
+    </File>
+    <File Include="books/B2/B2L13/13.14 humanbodyComplete.jpg">
+      <publishTime>06/09/2017 09:30:44</publishTime>
+    </File>
+    <File Include="books/B2/B2L13/13.14.jpg">
+      <publishTime>06/09/2017 09:30:46</publishTime>
+    </File>
+    <File Include="books/B2/B2L13/13.15.jpg">
+      <publishTime>06/09/2017 09:30:44</publishTime>
+    </File>
+    <File Include="books/B2/B2L13/13.16.jpg">
+      <publishTime>06/09/2017 09:30:46</publishTime>
+    </File>
+    <File Include="books/B2/B2L13/13.17.jpg">
+      <publishTime>06/09/2017 09:30:46</publishTime>
+    </File>
+    <File Include="books/B2/B2L13/13.18.jpg">
+      <publishTime>06/09/2017 09:30:46</publishTime>
+    </File>
+    <File Include="books/B2/B2L13/13.19.jpg">
+      <publishTime>06/09/2017 09:30:46</publishTime>
+    </File>
+    <File Include="books/B2/B2L13/13.1a.jpg">
+      <publishTime>06/09/2017 09:30:46</publishTime>
+    </File>
+    <File Include="books/B2/B2L13/13.1b.jpg">
+      <publishTime>06/09/2017 09:30:46</publishTime>
+    </File>
+    <File Include="books/B2/B2L13/13.2 Lou.jpg">
+      <publishTime>06/09/2017 09:30:46</publishTime>
+    </File>
+    <File Include="books/B2/B2L13/13.2 Ted.jpg">
+      <publishTime>06/09/2017 09:30:46</publishTime>
+    </File>
+    <File Include="books/B2/B2L13/13.2.jpg">
+      <publishTime>06/09/2017 09:30:46</publishTime>
+    </File>
+    <File Include="books/B2/B2L13/13.20.jpg">
+      <publishTime>06/09/2017 09:30:46</publishTime>
+    </File>
+    <File Include="books/B2/B2L13/13.21.jpg">
+      <publishTime>06/09/2017 09:30:46</publishTime>
+    </File>
+    <File Include="books/B2/B2L13/13.22.jpg">
+      <publishTime>06/09/2017 09:30:44</publishTime>
+    </File>
+    <File Include="books/B2/B2L13/13.23.jpg">
+      <publishTime>06/09/2017 09:30:44</publishTime>
+    </File>
+    <File Include="books/B2/B2L13/13.24.jpg">
+      <publishTime>06/09/2017 09:30:46</publishTime>
+    </File>
+    <File Include="books/B2/B2L13/13.25.jpg">
+      <publishTime>06/09/2017 09:30:46</publishTime>
+    </File>
+    <File Include="books/B2/B2L13/13.26.jpg">
+      <publishTime>06/09/2017 09:30:46</publishTime>
+    </File>
+    <File Include="books/B2/B2L13/13.27.jpg">
+      <publishTime>06/09/2017 09:30:46</publishTime>
+    </File>
+    <File Include="books/B2/B2L13/13.3a.jpg">
+      <publishTime>06/09/2017 09:30:44</publishTime>
+    </File>
+    <File Include="books/B2/B2L13/13.4a.jpg">
+      <publishTime>06/09/2017 09:30:46</publishTime>
+    </File>
+    <File Include="books/B2/B2L13/13.4apicture.jpg">
+      <publishTime>06/09/2017 09:30:46</publishTime>
+    </File>
+    <File Include="books/B2/B2L13/13.4b.jpg">
+      <publishTime>06/09/2017 09:30:46</publishTime>
+    </File>
+    <File Include="books/B2/B2L13/13.6.jpg">
+      <publishTime>06/09/2017 09:30:44</publishTime>
+    </File>
+    <File Include="books/B2/B2L13/13.7a.jpg">
+      <publishTime>06/09/2017 09:30:46</publishTime>
+    </File>
+    <File Include="books/B2/B2L13/13.8.jpg">
+      <publishTime>06/09/2017 09:30:46</publishTime>
+    </File>
+    <File Include="books/B2/B2L13/13.9a.jpg">
+      <publishTime>06/09/2017 09:30:46</publishTime>
+    </File>
+    <File Include="books/B2/B2L13/communicationFocus.jpg">
+      <publishTime>06/09/2017 09:30:46</publishTime>
+    </File>
+    <File Include="books/B2/B2L13/cooking.jpg">
+      <publishTime>06/09/2017 09:30:46</publishTime>
+    </File>
+    <File Include="books/B2/B2L13/exercises.jpg">
+      <publishTime>06/09/2017 09:30:46</publishTime>
+    </File>
+    <File Include="books/B2/B2L13/flippage.jpg">
+      <publishTime>06/09/2017 09:30:44</publishTime>
+    </File>
+    <File Include="books/B2/B2L13/flippage13.jpg">
+      <publishTime>06/09/2017 09:30:46</publishTime>
+    </File>
+    <File Include="books/B2/B2L13/grammarFocus.jpg">
+      <publishTime>06/09/2017 09:30:46</publishTime>
+    </File>
+    <File Include="books/B2/B2L13/grammarsummary.jpg">
+      <publishTime>06/09/2017 09:30:46</publishTime>
+    </File>
+    <File Include="books/B2/B2L13/partsbody.jpg">
+      <publishTime>06/09/2017 09:30:46</publishTime>
+    </File>
+    <File Include="books/B2/B2L13/partsbodylista.jpg">
+      <publishTime>06/09/2017 09:30:46</publishTime>
+    </File>
+    <File Include="books/B2/B2L13/pronunciationsummary.jpg">
+      <publishTime>06/09/2017 09:30:46</publishTime>
+    </File>
+    <File Include="books/B2/B2L13/reading.jpg">
+      <publishTime>06/09/2017 09:30:46</publishTime>
+    </File>
+    <File Include="books/B2/B2L13/ridingBike.jpg">
+      <publishTime>06/09/2017 09:30:44</publishTime>
+    </File>
+    <File Include="books/B2/B2L13/summary.jpg">
+      <publishTime>06/09/2017 09:30:46</publishTime>
+    </File>
+    <File Include="books/B2/B2L13/tag13.jpg">
+      <publishTime>06/09/2017 09:30:46</publishTime>
+    </File>
+    <File Include="books/B2/B2L13/vocabularysummary.jpg">
+      <publishTime>06/09/2017 09:30:46</publishTime>
+    </File>
+    <File Include="books/B2/B2L13/watchingTV.jpg">
+      <publishTime>06/09/2017 09:30:46</publishTime>
+    </File>
+    <File Include="bootstrap/css/bootstrap-theme.css">
+      <publishTime>06/09/2017 09:30:44</publishTime>
+    </File>
+    <File Include="bootstrap/css/bootstrap-theme.css.map">
+      <publishTime>06/09/2017 09:30:44</publishTime>
+    </File>
+    <File Include="bootstrap/css/bootstrap-theme.min.css">
+      <publishTime>06/09/2017 09:30:44</publishTime>
+    </File>
+    <File Include="bootstrap/css/bootstrap-theme.min.css.map">
+      <publishTime>06/09/2017 09:30:44</publishTime>
+    </File>
+    <File Include="bootstrap/css/bootstrap.css">
+      <publishTime>06/09/2017 09:30:44</publishTime>
+    </File>
+    <File Include="bootstrap/css/bootstrap.css.map">
+      <publishTime>06/09/2017 09:30:44</publishTime>
+    </File>
+    <File Include="bootstrap/css/bootstrap.min.css">
+      <publishTime>06/09/2017 09:30:44</publishTime>
+    </File>
+    <File Include="bootstrap/css/bootstrap.min.css.map">
+      <publishTime>06/09/2017 09:30:44</publishTime>
+    </File>
+    <File Include="bootstrap/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>06/09/2017 09:30:44</publishTime>
+    </File>
+    <File Include="bootstrap/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>06/09/2017 09:30:44</publishTime>
+    </File>
+    <File Include="bootstrap/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>06/09/2017 09:30:44</publishTime>
+    </File>
+    <File Include="bootstrap/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>06/09/2017 09:30:44</publishTime>
+    </File>
+    <File Include="bootstrap/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>06/09/2017 09:30:44</publishTime>
+    </File>
+    <File Include="bootstrap/js/bootstrap.js">
+      <publishTime>06/09/2017 09:30:44</publishTime>
+    </File>
+    <File Include="bootstrap/js/bootstrap.min.js">
+      <publishTime>06/09/2017 09:30:44</publishTime>
+    </File>
+    <File Include="bootstrap/js/npm.js">
+      <publishTime>06/09/2017 09:30:44</publishTime>
+    </File>
+    <File Include="business1.aspx">
+      <publishTime>08/15/2018 20:38:38</publishTime>
+    </File>
+    <File Include="business2.aspx">
+      <publishTime>08/15/2018 20:38:37</publishTime>
+    </File>
+    <File Include="center.Master">
+      <publishTime>06/11/2018 21:39:27</publishTime>
+    </File>
+    <File Include="css/animate.css">
+      <publishTime>06/09/2017 09:30:44</publishTime>
+    </File>
+    <File Include="css/bootstrap.css">
+      <publishTime>06/09/2017 09:30:44</publishTime>
+    </File>
+    <File Include="css/style.css">
+      <publishTime>06/09/2017 09:30:44</publishTime>
+    </File>
+    <File Include="cssmenu/menu-btn.png">
+      <publishTime>06/09/2017 09:30:40</publishTime>
+    </File>
+    <File Include="cssmenu/responsive-menu.css">
+      <publishTime>06/09/2017 09:30:40</publishTime>
+    </File>
+    <File Include="cssmenu/responsive-menu.min.css">
+      <publishTime>06/09/2017 09:30:40</publishTime>
+    </File>
+    <File Include="cssmenu/styles.css">
+      <publishTime>06/09/2017 09:30:40</publishTime>
+    </File>
+    <File Include="doubts1.aspx">
+      <publishTime>06/11/2018 21:39:15</publishTime>
+    </File>
+    <File Include="doubts2.aspx">
+      <publishTime>06/11/2018 21:39:50</publishTime>
+    </File>
+    <File Include="Ep/assorted.aspx">
+      <publishTime>08/14/2018 09:34:59</publishTime>
+    </File>
+    <File Include="Ep/dicas.aspx">
+      <publishTime>08/14/2018 09:38:52</publishTime>
+    </File>
+    <File Include="Ep/dudas.aspx">
+      <publishTime>08/14/2018 09:38:53</publishTime>
+    </File>
+    <File Include="Ep/insert.aspx">
+      <publishTime>08/14/2018 09:15:59</publishTime>
+    </File>
+    <File Include="Ep/leccion1.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Ep/leccion2.aspx">
+      <publishTime>08/14/2018 09:17:46</publishTime>
+    </File>
+    <File Include="Ep/leccion3.aspx">
+      <publishTime>08/14/2018 09:18:43</publishTime>
+    </File>
+    <File Include="Ep/leccion4.aspx">
+      <publishTime>08/14/2018 09:20:05</publishTime>
+    </File>
+    <File Include="Ep/videos.aspx">
+      <publishTime>08/14/2018 09:39:54</publishTime>
+    </File>
+    <File Include="g.aspx">
+      <publishTime>06/11/2018 21:39:36</publishTime>
+    </File>
+    <File Include="home/imagem/1312LOGO.ico">
+      <publishTime>08/14/2018 05:10:23</publishTime>
+    </File>
+    <File Include="home/imagem/duvidas.jpg">
+      <publishTime>06/09/2017 09:30:38</publishTime>
+    </File>
+    <File Include="home/imagem/favicon.ico">
+      <publishTime>06/09/2017 09:30:38</publishTime>
+    </File>
+    <File Include="home/imagem/favicon.png">
+      <publishTime>08/14/2018 05:05:58</publishTime>
+    </File>
+    <File Include="home/imagem/i2.jpg">
+      <publishTime>06/09/2017 09:30:38</publishTime>
+    </File>
+    <File Include="home/imagem/Icon_content.jpg">
+      <publishTime>06/09/2017 09:30:38</publishTime>
+    </File>
+    <File Include="home/imagem/Icon_exercises.jpg">
+      <publishTime>06/09/2017 09:30:38</publishTime>
+    </File>
+    <File Include="home/imagem/Icon_music.jpg">
+      <publishTime>06/09/2017 09:30:38</publishTime>
+    </File>
+    <File Include="home/imagem/Link1.jpg">
+      <publishTime>06/09/2017 09:30:38</publishTime>
+    </File>
+    <File Include="home/imagem/logo.ico">
+      <publishTime>08/14/2018 05:12:10</publishTime>
+    </File>
+    <File Include="home/imagem/Panfleto1.gif">
+      <publishTime>06/09/2017 09:30:38</publishTime>
+    </File>
+    <File Include="home/imagem/Tag_menu P.jpg">
+      <publishTime>06/09/2017 09:30:38</publishTime>
+    </File>
+    <File Include="home/imagem/Tag_menu.jpg">
+      <publishTime>06/09/2017 09:30:38</publishTime>
+    </File>
+    <File Include="home/imagem/time for change.jpg">
+      <publishTime>06/09/2017 09:30:38</publishTime>
+    </File>
+    <File Include="home/imagem/topo.jpg">
+      <publishTime>06/09/2017 09:30:38</publishTime>
+    </File>
+    <File Include="home/imagem/voce_sabia.gif">
+      <publishTime>06/09/2017 09:30:38</publishTime>
+    </File>
+    <File Include="home/imagem/vs1.jpg">
+      <publishTime>06/09/2017 09:30:38</publishTime>
+    </File>
+    <File Include="home/slideshow.css">
+      <publishTime>06/09/2017 09:30:38</publishTime>
+    </File>
+    <File Include="imagens/a.jpg">
+      <publishTime>06/09/2017 09:30:50</publishTime>
+    </File>
+    <File Include="imagens/AgathaElena.jpg">
+      <publishTime>06/09/2017 09:30:50</publishTime>
+    </File>
+    <File Include="imagens/banner1.jpg">
+      <publishTime>06/09/2017 09:30:50</publishTime>
+    </File>
+    <File Include="imagens/close.png">
+      <publishTime>06/09/2017 09:30:50</publishTime>
+    </File>
+    <File Include="imagens/e.png">
+      <publishTime>06/09/2017 09:30:50</publishTime>
+    </File>
+    <File Include="imagens/g1.jpg">
+      <publishTime>06/09/2017 09:30:50</publishTime>
+    </File>
+    <File Include="imagens/g2.jpg">
+      <publishTime>06/09/2017 09:30:50</publishTime>
+    </File>
+    <File Include="imagens/g3.jpg">
+      <publishTime>06/09/2017 09:30:48</publishTime>
+    </File>
+    <File Include="imagens/g4.jpg">
+      <publishTime>06/09/2017 09:30:50</publishTime>
+    </File>
+    <File Include="imagens/g5.jpg">
+      <publishTime>06/09/2017 09:30:50</publishTime>
+    </File>
+    <File Include="imagens/g6.jpg">
+      <publishTime>06/09/2017 09:30:50</publishTime>
+    </File>
+    <File Include="imagens/img1.jpg">
+      <publishTime>06/09/2017 09:30:50</publishTime>
+    </File>
+    <File Include="imagens/img2.jpg">
+      <publishTime>06/09/2017 09:30:48</publishTime>
+    </File>
+    <File Include="imagens/img3.jpg">
+      <publishTime>06/09/2017 09:30:50</publishTime>
+    </File>
+    <File Include="imagens/img4.jpg">
+      <publishTime>06/09/2017 09:30:50</publishTime>
+    </File>
+    <File Include="imagens/img5.jpg">
+      <publishTime>06/09/2017 09:30:50</publishTime>
+    </File>
+    <File Include="imagens/img6.jpg">
+      <publishTime>06/09/2017 09:30:50</publishTime>
+    </File>
+    <File Include="imagens/left.png">
+      <publishTime>06/09/2017 09:30:48</publishTime>
+    </File>
+    <File Include="imagens/login.fw.png">
+      <publishTime>06/09/2017 09:30:50</publishTime>
+    </File>
+    <File Include="imagens/logoW3web.png">
+      <publishTime>06/09/2017 09:30:50</publishTime>
+    </File>
+    <File Include="imagens/right.png">
+      <publishTime>06/09/2017 09:30:50</publishTime>
+    </File>
+    <File Include="imagens/rodape.fw.png">
+      <publishTime>06/09/2017 09:30:50</publishTime>
+    </File>
+    <File Include="imagens/slid.jpg">
+      <publishTime>06/09/2017 09:30:50</publishTime>
+    </File>
+    <File Include="imagens/social-icons.png">
+      <publishTime>06/09/2017 09:30:48</publishTime>
+    </File>
+    <File Include="imagens/template.fw.png">
+      <publishTime>06/09/2017 09:30:48</publishTime>
+    </File>
+    <File Include="imagens/v1p1.jpg">
+      <publishTime>06/09/2017 09:30:50</publishTime>
+    </File>
+    <File Include="imagens/v1p2tea.jpg">
+      <publishTime>06/09/2017 09:30:48</publishTime>
+    </File>
+    <File Include="imagens/wordinghp.jpg">
+      <publishTime>06/09/2017 09:30:48</publishTime>
+    </File>
+    <File Include="images/14bottonPage.jpg">
+      <publishTime>06/09/2017 09:31:00</publishTime>
+    </File>
+    <File Include="images/14TOPPage.jpg">
+      <publishTime>06/09/2017 09:30:54</publishTime>
+    </File>
+    <File Include="images/18.13.jpg">
+      <publishTime>06/09/2017 09:30:52</publishTime>
+    </File>
+    <File Include="images/18.24.jpg">
+      <publishTime>06/09/2017 09:30:52</publishTime>
+    </File>
+    <File Include="images/5.1.jpg">
+      <publishTime>06/09/2017 09:31:00</publishTime>
+    </File>
+    <File Include="images/a.jpg">
+      <publishTime>06/09/2017 09:30:54</publishTime>
+    </File>
+    <File Include="images/access.png">
+      <publishTime>06/09/2017 09:30:58</publishTime>
+    </File>
+    <File Include="images/acesso.png">
+      <publishTime>06/09/2017 09:30:56</publishTime>
+    </File>
+    <File Include="images/acesso22.png">
+      <publishTime>06/09/2017 09:30:54</publishTime>
+    </File>
+    <File Include="images/alphabet.jpg">
+      <publishTime>06/09/2017 09:30:54</publishTime>
+    </File>
+    <File Include="images/ameliaEarhart.jpg">
+      <publishTime>06/09/2017 09:30:50</publishTime>
+    </File>
+    <File Include="images/american-express.png">
+      <publishTime>06/09/2017 09:30:56</publishTime>
+    </File>
+    <File Include="images/animals1.jpg">
+      <publishTime>06/09/2017 09:30:50</publishTime>
+    </File>
+    <File Include="images/animals2.jpg">
+      <publishTime>06/09/2017 09:30:52</publishTime>
+    </File>
+    <File Include="images/Apple-wallpaper-10651482.jpg">
+      <publishTime>06/09/2017 09:30:54</publishTime>
+    </File>
+    <File Include="images/ArrowDown.jpg">
+      <publishTime>06/09/2017 09:30:58</publishTime>
+    </File>
+    <File Include="images/ArrowMiddle.jpg">
+      <publishTime>06/09/2017 09:30:56</publishTime>
+    </File>
+    <File Include="images/arrowreturn.jpg">
+      <publishTime>06/09/2017 09:30:52</publishTime>
+    </File>
+    <File Include="images/arrowSave.jpg">
+      <publishTime>06/09/2017 09:30:58</publishTime>
+    </File>
+    <File Include="images/ArrowUP.jpg">
+      <publishTime>06/09/2017 09:30:52</publishTime>
+    </File>
+    <File Include="images/Athletes1.jpg">
+      <publishTime>06/09/2017 09:30:52</publishTime>
+    </File>
+    <File Include="images/ativo.png">
+      <publishTime>06/09/2017 09:30:54</publishTime>
+    </File>
+    <File Include="images/b1.jpg">
+      <publishTime>06/09/2017 09:30:50</publishTime>
+    </File>
+    <File Include="images/b1l5.jpg">
+      <publishTime>06/09/2017 09:30:52</publishTime>
+    </File>
+    <File Include="images/baixo.png">
+      <publishTime>06/09/2017 09:30:58</publishTime>
+    </File>
+    <File Include="images/banana.jpg">
+      <publishTime>06/09/2017 09:30:58</publishTime>
+    </File>
+    <File Include="images/banner1.jpg">
+      <publishTime>06/09/2017 09:30:54</publishTime>
+    </File>
+    <File Include="images/belt.jpg">
+      <publishTime>06/09/2017 09:30:50</publishTime>
+    </File>
+    <File Include="images/bg.png">
+      <publishTime>06/09/2017 09:31:00</publishTime>
+    </File>
+    <File Include="images/billGatesPaulAllen.jpg">
+      <publishTime>06/09/2017 09:30:56</publishTime>
+    </File>
+    <File Include="images/bkg1.jpg">
+      <publishTime>06/09/2017 09:31:00</publishTime>
+    </File>
+    <File Include="images/bkg2.jpg">
+      <publishTime>06/09/2017 09:30:54</publishTime>
+    </File>
+    <File Include="images/bkg_front1.jpg">
+      <publishTime>06/09/2017 09:30:54</publishTime>
+    </File>
+    <File Include="images/bkg_front1.png">
+      <publishTime>06/09/2017 09:30:56</publishTime>
+    </File>
+    <File Include="images/bkg_front2.jpg">
+      <publishTime>06/09/2017 09:30:52</publishTime>
+    </File>
+    <File Include="images/bkg_front2.png">
+      <publishTime>06/09/2017 09:31:00</publishTime>
+    </File>
+    <File Include="images/bkg_front3.jpg">
+      <publishTime>06/09/2017 09:30:56</publishTime>
+    </File>
+    <File Include="images/bkg_front3.png">
+      <publishTime>06/09/2017 09:30:52</publishTime>
+    </File>
+    <File Include="images/bkg_front4.png">
+      <publishTime>06/09/2017 09:30:56</publishTime>
+    </File>
+    <File Include="images/bkg_front5.jpg">
+      <publishTime>06/09/2017 09:30:52</publishTime>
+    </File>
+    <File Include="images/bkg_front5.png">
+      <publishTime>06/09/2017 09:30:50</publishTime>
+    </File>
+    <File Include="images/bkg_front6.png">
+      <publishTime>06/09/2017 09:30:58</publishTime>
+    </File>
+    <File Include="images/bkg_front7.png">
+      <publishTime>06/09/2017 09:30:50</publishTime>
+    </File>
+    <File Include="images/Blue_Squares-wallpaper.jpg">
+      <publishTime>06/09/2017 09:31:00</publishTime>
+    </File>
+    <File Include="images/bouquet.jpg">
+      <publishTime>06/09/2017 09:30:52</publishTime>
+    </File>
+    <File Include="images/bread.jpg">
+      <publishTime>06/09/2017 09:30:56</publishTime>
+    </File>
+    <File Include="images/cadastro.png">
+      <publishTime>06/09/2017 09:31:00</publishTime>
+    </File>
+    <File Include="images/cap.jpg">
+      <publishTime>06/09/2017 09:30:56</publishTime>
+    </File>
+    <File Include="images/cardriving.jpg">
+      <publishTime>06/09/2017 09:30:58</publishTime>
+    </File>
+    <File Include="images/cheese.jpg">
+      <publishTime>06/09/2017 09:30:50</publishTime>
+    </File>
+    <File Include="images/cheesepiece.jpg">
+      <publishTime>06/09/2017 09:31:00</publishTime>
+    </File>
+    <File Include="images/chicken.jpg">
+      <publishTime>06/09/2017 09:30:50</publishTime>
+    </File>
+    <File Include="images/Clock-wp.jpg">
+      <publishTime>06/09/2017 09:30:56</publishTime>
+    </File>
+    <File Include="images/close.png">
+      <publishTime>06/09/2017 09:30:56</publishTime>
+    </File>
+    <File Include="images/clothes.jpg">
+      <publishTime>06/09/2017 09:30:58</publishTime>
+    </File>
+    <File Include="images/coat.jpg">
+      <publishTime>06/09/2017 09:30:56</publishTime>
+    </File>
+    <File Include="images/coffee.jpg">
+      <publishTime>06/09/2017 09:30:56</publishTime>
+    </File>
+    <File Include="images/coffeepack.jpg">
+      <publishTime>06/09/2017 09:30:52</publishTime>
+    </File>
+    <File Include="images/coffeepack.png">
+      <publishTime>06/09/2017 09:30:50</publishTime>
+    </File>
+    <File Include="images/communicationFocus.jpg">
+      <publishTime>06/09/2017 09:30:56</publishTime>
+    </File>
+    <File Include="images/communicationfocus.png">
+      <publishTime>06/09/2017 09:30:58</publishTime>
+    </File>
+    <File Include="images/communicationTag.jpg">
+      <publishTime>06/09/2017 09:30:58</publishTime>
+    </File>
+    <File Include="images/CONF.png">
+      <publishTime>06/09/2017 09:30:58</publishTime>
+    </File>
+    <File Include="images/cooking.jpg">
+      <publishTime>06/09/2017 09:30:54</publishTime>
+    </File>
+    <File Include="images/cropper.jpg">
+      <publishTime>06/09/2017 09:30:50</publishTime>
+    </File>
+    <File Include="images/dancing.png">
+      <publishTime>06/09/2017 09:30:56</publishTime>
+    </File>
+    <File Include="images/dollar.jpg">
+      <publishTime>06/09/2017 09:30:50</publishTime>
+    </File>
+    <File Include="images/dontStop.jpg">
+      <publishTime>06/09/2017 09:30:54</publishTime>
+    </File>
+    <File Include="images/e.png">
+      <publishTime>06/09/2017 09:31:00</publishTime>
+    </File>
+    <File Include="images/Easy-wp.jpg">
+      <publishTime>06/09/2017 09:30:56</publishTime>
+    </File>
+    <File Include="images/eating.jpg">
+      <publishTime>06/09/2017 09:30:56</publishTime>
+    </File>
+    <File Include="images/eggs.jpg">
+      <publishTime>06/09/2017 09:30:56</publishTime>
+    </File>
+    <File Include="images/exerciseTag.jpg">
+      <publishTime>06/09/2017 09:30:56</publishTime>
+    </File>
+    <File Include="images/favicon-96x96.png">
+      <publishTime>08/14/2018 04:57:10</publishTime>
+    </File>
+    <File Include="images/fish.jpg">
+      <publishTime>06/09/2017 09:30:54</publishTime>
+    </File>
+    <File Include="images/fishing.jpg">
+      <publishTime>06/09/2017 09:30:54</publishTime>
+    </File>
+    <File Include="images/flippageDown.jpg">
+      <publishTime>06/09/2017 09:30:56</publishTime>
+    </File>
+    <File Include="images/flippageDown2.jpg">
+      <publishTime>06/09/2017 09:30:52</publishTime>
+    </File>
+    <File Include="images/flippageDown3.jpg">
+      <publishTime>06/09/2017 09:30:58</publishTime>
+    </File>
+    <File Include="images/flippageDown4.jpg">
+      <publishTime>06/09/2017 09:31:00</publishTime>
+    </File>
+    <File Include="images/flippageUp.jpg">
+      <publishTime>06/09/2017 09:31:00</publishTime>
+    </File>
+    <File Include="images/flippageUp2.jpg">
+      <publishTime>06/09/2017 09:30:52</publishTime>
+    </File>
+    <File Include="images/flippageUp3.jpg">
+      <publishTime>06/09/2017 09:30:52</publishTime>
+    </File>
+    <File Include="images/flippageUp4.jpg">
+      <publishTime>06/09/2017 09:30:52</publishTime>
+    </File>
+    <File Include="images/flippageUp5.jpg">
+      <publishTime>06/09/2017 09:30:54</publishTime>
+    </File>
+    <File Include="images/flippageUpDown4.jpg">
+      <publishTime>06/09/2017 09:31:00</publishTime>
+    </File>
+    <File Include="images/flippageUpDown5.jpg">
+      <publishTime>06/09/2017 09:30:56</publishTime>
+    </File>
+    <File Include="images/g1.jpg">
+      <publishTime>06/09/2017 09:30:56</publishTime>
+    </File>
+    <File Include="images/g2.jpg">
+      <publishTime>06/09/2017 09:31:00</publishTime>
+    </File>
+    <File Include="images/g3.jpg">
+      <publishTime>06/09/2017 09:30:52</publishTime>
+    </File>
+    <File Include="images/g4.jpg">
+      <publishTime>06/09/2017 09:30:58</publishTime>
+    </File>
+    <File Include="images/g5.jpg">
+      <publishTime>06/09/2017 09:30:54</publishTime>
+    </File>
+    <File Include="images/g6.jpg">
+      <publishTime>06/09/2017 09:30:58</publishTime>
+    </File>
+    <File Include="images/Galaxy_Note_2-wallpaper-9168648.jpg">
+      <publishTime>06/09/2017 09:30:58</publishTime>
+    </File>
+    <File Include="images/graficos.png">
+      <publishTime>06/09/2017 09:30:54</publishTime>
+    </File>
+    <File Include="images/grammarFocusTag.jpg">
+      <publishTime>06/09/2017 09:30:56</publishTime>
+    </File>
+    <File Include="images/grammarSummary.jpg">
+      <publishTime>06/09/2017 09:30:56</publishTime>
+    </File>
+    <File Include="images/grammarTag.jpg">
+      <publishTime>06/09/2017 09:30:52</publishTime>
+    </File>
+    <File Include="images/ground.jpg">
+      <publishTime>06/09/2017 09:31:00</publishTime>
+    </File>
+    <File Include="images/groundhog.jpg">
+      <publishTime>06/09/2017 09:30:58</publishTime>
+    </File>
+    <File Include="images/hat.jpg">
+      <publishTime>06/09/2017 09:31:00</publishTime>
+    </File>
+    <File Include="images/hatskinds.jpg">
+      <publishTime>06/09/2017 09:30:58</publishTime>
+    </File>
+    <File Include="images/head.jpg">
+      <publishTime>06/09/2017 09:30:52</publishTime>
+    </File>
+    <File Include="images/home.png">
+      <publishTime>06/09/2017 09:30:54</publishTime>
+    </File>
+    <File Include="images/homeworkdoing.jpg">
+      <publishTime>06/09/2017 09:31:00</publishTime>
+    </File>
+    <File Include="images/iexercises.jpg">
+      <publishTime>06/09/2017 09:30:54</publishTime>
+    </File>
+    <File Include="images/img.jpg">
+      <publishTime>06/09/2017 09:30:50</publishTime>
+    </File>
+    <File Include="images/img1.jpg">
+      <publishTime>06/09/2017 09:30:56</publishTime>
+    </File>
+    <File Include="images/img2.jpg">
+      <publishTime>06/09/2017 09:30:52</publishTime>
+    </File>
+    <File Include="images/img3.jpg">
+      <publishTime>06/09/2017 09:31:00</publishTime>
+    </File>
+    <File Include="images/img4.jpg">
+      <publishTime>06/09/2017 09:30:54</publishTime>
+    </File>
+    <File Include="images/img5.jpg">
+      <publishTime>06/09/2017 09:30:52</publishTime>
+    </File>
+    <File Include="images/img6.jpg">
+      <publishTime>06/09/2017 09:30:52</publishTime>
+    </File>
+    <File Include="images/inativo.png">
+      <publishTime>06/09/2017 09:30:58</publishTime>
+    </File>
+    <File Include="images/inbox.png">
+      <publishTime>06/09/2017 09:30:56</publishTime>
+    </File>
+    <File Include="images/jacket.jpg">
+      <publishTime>06/09/2017 09:31:00</publishTime>
+    </File>
+    <File Include="images/jeans.jpg">
+      <publishTime>06/09/2017 09:30:58</publishTime>
+    </File>
+    <File Include="images/juice.jpg">
+      <publishTime>06/09/2017 09:30:56</publishTime>
+    </File>
+    <File Include="images/layoutbkrg.jpg">
+      <publishTime>06/09/2017 09:30:58</publishTime>
+    </File>
+    <File Include="images/layoutbkrg2.jpg">
+      <publishTime>06/09/2017 09:30:58</publishTime>
+    </File>
+    <File Include="images/LayoutClassroom.jpg">
+      <publishTime>06/09/2017 09:30:58</publishTime>
+    </File>
+    <File Include="images/lcontenf.jpg">
+      <publishTime>06/09/2017 09:30:58</publishTime>
+    </File>
+    <File Include="images/left.png">
+      <publishTime>06/09/2017 09:30:52</publishTime>
+    </File>
+    <File Include="images/lesson2-20.jpg">
+      <publishTime>06/09/2017 09:30:56</publishTime>
+    </File>
+    <File Include="images/lid.jpg">
+      <publishTime>06/09/2017 09:30:56</publishTime>
+    </File>
+    <File Include="images/listeningmusic.jpg">
+      <publishTime>06/09/2017 09:30:56</publishTime>
+    </File>
+    <File Include="images/listenNow.jpg">
+      <publishTime>06/09/2017 09:30:50</publishTime>
+    </File>
+    <File Include="images/logo.fw.png">
+      <publishTime>06/09/2017 09:30:56</publishTime>
+    </File>
+    <File Include="images/LOGO.png">
+      <publishTime>06/09/2017 09:31:00</publishTime>
+    </File>
+    <File Include="images/logomini.jpg">
+      <publishTime>06/09/2017 09:30:56</publishTime>
+    </File>
+    <File Include="images/logoW3web.png">
+      <publishTime>06/09/2017 09:31:00</publishTime>
+    </File>
+    <File Include="images/mandela.jpg">
+      <publishTime>06/09/2017 09:30:56</publishTime>
+    </File>
+    <File Include="images/mastercard.png">
+      <publishTime>06/09/2017 09:30:50</publishTime>
+    </File>
+    <File Include="images/media.jpg">
+      <publishTime>06/09/2017 09:30:56</publishTime>
+    </File>
+    <File Include="images/men book.JPG">
+      <publishTime>06/09/2017 09:31:00</publishTime>
+    </File>
+    <File Include="images/menu.jpg">
+      <publishTime>06/09/2017 09:30:56</publishTime>
+    </File>
+    <File Include="images/olympicAthletes.jpg">
+      <publishTime>06/09/2017 09:30:56</publishTime>
+    </File>
+    <File Include="images/orange.jpg">
+      <publishTime>06/09/2017 09:30:54</publishTime>
+    </File>
+    <File Include="images/pagebar.jpg">
+      <publishTime>06/09/2017 09:30:58</publishTime>
+    </File>
+    <File Include="images/pagedivision.png">
+      <publishTime>06/09/2017 09:30:52</publishTime>
+    </File>
+    <File Include="images/pagetira.jpg">
+      <publishTime>06/09/2017 09:31:00</publishTime>
+    </File>
+    <File Include="images/painting.jpg">
+      <publishTime>06/09/2017 09:30:54</publishTime>
+    </File>
+    <File Include="images/pants.jpg">
+      <publishTime>06/09/2017 09:30:54</publishTime>
+    </File>
+    <File Include="images/paperbkground.jpg">
+      <publishTime>06/09/2017 09:30:56</publishTime>
+    </File>
+    <File Include="images/Paper_Texture-wallpaper-8375600.jpg">
+      <publishTime>06/09/2017 09:31:00</publishTime>
+    </File>
+    <File Include="images/past ED pronunciation.jpg">
+      <publishTime>06/09/2017 09:30:56</publishTime>
+    </File>
+    <File Include="images/pasta.jpg">
+      <publishTime>06/09/2017 09:30:54</publishTime>
+    </File>
+    <File Include="images/paypal.png">
+      <publishTime>06/09/2017 09:30:54</publishTime>
+    </File>
+    <File Include="images/people1.jpg">
+      <publishTime>06/09/2017 09:30:50</publishTime>
+    </File>
+    <File Include="images/people2.jpg">
+      <publishTime>06/09/2017 09:30:52</publishTime>
+    </File>
+    <File Include="images/people3.jpg">
+      <publishTime>06/09/2017 09:30:58</publishTime>
+    </File>
+    <File Include="images/people4.jpg">
+      <publishTime>06/09/2017 09:30:52</publishTime>
+    </File>
+    <File Include="images/piano.jpg">
+      <publishTime>06/09/2017 09:30:56</publishTime>
+    </File>
+    <File Include="images/picture.jpg">
+      <publishTime>06/09/2017 09:30:54</publishTime>
+    </File>
+    <File Include="images/playingsoccer.jpg">
+      <publishTime>06/09/2017 09:30:54</publishTime>
+    </File>
+    <File Include="images/potatoes.jpg">
+      <publishTime>06/09/2017 09:30:52</publishTime>
+    </File>
+    <File Include="images/prod-1.jpg">
+      <publishTime>06/09/2017 09:30:56</publishTime>
+    </File>
+    <File Include="images/prod-2.jpg">
+      <publishTime>06/09/2017 09:30:56</publishTime>
+    </File>
+    <File Include="images/prod-3.jpg">
+      <publishTime>06/09/2017 09:30:58</publishTime>
+    </File>
+    <File Include="images/prod-4.jpg">
+      <publishTime>06/09/2017 09:30:52</publishTime>
+    </File>
+    <File Include="images/prod-5.jpg">
+      <publishTime>06/09/2017 09:30:58</publishTime>
+    </File>
+    <File Include="images/pronunciationFocusTag.jpg">
+      <publishTime>06/09/2017 09:30:58</publishTime>
+    </File>
+    <File Include="images/pronunciationSummary.jpg">
+      <publishTime>06/09/2017 09:30:56</publishTime>
+    </File>
+    <File Include="images/relatorios.png">
+      <publishTime>06/09/2017 09:30:56</publishTime>
+    </File>
+    <File Include="images/rice.jpg">
+      <publishTime>06/09/2017 09:30:58</publishTime>
+    </File>
+    <File Include="images/right.png">
+      <publishTime>06/09/2017 09:30:58</publishTime>
+    </File>
+    <File Include="images/rodolphoValentino.jpg">
+      <publishTime>06/09/2017 09:30:54</publishTime>
+    </File>
+    <File Include="images/salad.jpg">
+      <publishTime>06/09/2017 09:30:52</publishTime>
+    </File>
+    <File Include="images/salt.jpg">
+      <publishTime>06/09/2017 09:30:56</publishTime>
+    </File>
+    <File Include="images/semfoto.png">
+      <publishTime>06/09/2017 09:30:56</publishTime>
+    </File>
+    <File Include="images/shirt.jpg">
+      <publishTime>06/09/2017 09:30:50</publishTime>
+    </File>
+    <File Include="images/shoes.jpg">
+      <publishTime>06/09/2017 09:30:58</publishTime>
+    </File>
+    <File Include="images/shopping.jpg">
+      <publishTime>06/09/2017 09:31:00</publishTime>
+    </File>
+    <File Include="images/shortAnwersPastToBe.jpg">
+      <publishTime>06/09/2017 09:30:58</publishTime>
+    </File>
+    <File Include="images/skiing.jpg">
+      <publishTime>06/09/2017 09:30:58</publishTime>
+    </File>
+    <File Include="images/skirt.jpg">
+      <publishTime>06/09/2017 09:30:52</publishTime>
+    </File>
+    <File Include="images/sleeping.jpg">
+      <publishTime>06/09/2017 09:30:56</publishTime>
+    </File>
+    <File Include="images/slid.jpg">
+      <publishTime>06/09/2017 09:30:54</publishTime>
+    </File>
+    <File Include="images/social-icons.png">
+      <publishTime>06/09/2017 09:30:52</publishTime>
+    </File>
+    <File Include="images/socks.jpg">
+      <publishTime>06/09/2017 09:30:58</publishTime>
+    </File>
+    <File Include="images/sugar.jpg">
+      <publishTime>06/09/2017 09:30:52</publishTime>
+    </File>
+    <File Include="images/suit.jpg">
+      <publishTime>06/09/2017 09:30:58</publishTime>
+    </File>
+    <File Include="images/Summary9.jpg">
+      <publishTime>06/09/2017 09:31:00</publishTime>
+    </File>
+    <File Include="images/summarygrammar.jpg">
+      <publishTime>06/09/2017 09:30:56</publishTime>
+    </File>
+    <File Include="images/summaryTOP.jpg">
+      <publishTime>06/09/2017 09:31:00</publishTime>
+    </File>
+    <File Include="images/summaryvocabulary.jpg">
+      <publishTime>06/09/2017 09:30:52</publishTime>
+    </File>
+    <File Include="images/sweater.jpg">
+      <publishTime>06/09/2017 09:30:56</publishTime>
+    </File>
+    <File Include="images/sweaters7.jpg">
+      <publishTime>06/09/2017 09:30:52</publishTime>
+    </File>
+    <File Include="images/swimming.jpg">
+      <publishTime>06/09/2017 09:30:56</publishTime>
+    </File>
+    <File Include="images/symbolsExerc/11.15.jpg">
+      <publishTime>06/09/2017 09:31:00</publishTime>
+    </File>
+    <File Include="images/symbolsExerc/11.15a.jpg">
+      <publishTime>06/09/2017 09:31:00</publishTime>
+    </File>
+    <File Include="images/symbolsExerc/11.19.jpg">
+      <publishTime>06/09/2017 09:31:00</publishTime>
+    </File>
+    <File Include="images/symbolsExerc/11.21.jpg">
+      <publishTime>06/09/2017 09:31:00</publishTime>
+    </File>
+    <File Include="images/symbolsExerc/11.22.jpg">
+      <publishTime>06/09/2017 09:31:02</publishTime>
+    </File>
+    <File Include="images/symbolsExerc/11.24.jpg">
+      <publishTime>06/09/2017 09:31:00</publishTime>
+    </File>
+    <File Include="images/symbolsExerc/11.26.jpg">
+      <publishTime>06/09/2017 09:31:00</publishTime>
+    </File>
+    <File Include="images/symbolsExerc/11Summary.jpg">
+      <publishTime>06/09/2017 09:31:02</publishTime>
+    </File>
+    <File Include="images/symbolsExerc/SportsHobbiesTOP.jpg">
+      <publishTime>06/09/2017 09:31:00</publishTime>
+    </File>
+    <File Include="images/symbolsExerc/SummaryFINALpage.jpg">
+      <publishTime>06/09/2017 09:31:02</publishTime>
+    </File>
+    <File Include="images/symbolsExerc/SummaryGrammarFocus.jpg">
+      <publishTime>06/09/2017 09:31:00</publishTime>
+    </File>
+    <File Include="images/symbolsExerc/SummaryPhonetic.jpg">
+      <publishTime>06/09/2017 09:31:00</publishTime>
+    </File>
+    <File Include="images/symbolsExerc/SummaryPronunciationFocus.jpg">
+      <publishTime>06/09/2017 09:31:00</publishTime>
+    </File>
+    <File Include="images/symbolsExerc/SummaryVocabularyFocus.jpg">
+      <publishTime>06/09/2017 09:31:00</publishTime>
+    </File>
+    <File Include="images/t-shirt.jpg">
+      <publishTime>06/09/2017 09:30:52</publishTime>
+    </File>
+    <File Include="images/talkingphone.jpg">
+      <publishTime>06/09/2017 09:30:52</publishTime>
+    </File>
+    <File Include="images/tea.jpg">
+      <publishTime>06/09/2017 09:30:58</publishTime>
+    </File>
+    <File Include="images/tie.jpg">
+      <publishTime>06/09/2017 09:30:54</publishTime>
+    </File>
+    <File Include="images/tomatoes.jpg">
+      <publishTime>06/09/2017 09:30:56</publishTime>
+    </File>
+    <File Include="images/topo.jpg">
+      <publishTime>06/09/2017 09:30:54</publishTime>
+    </File>
+    <File Include="images/underwear.jpg">
+      <publishTime>06/09/2017 09:31:00</publishTime>
+    </File>
+    <File Include="images/user.png">
+      <publishTime>06/09/2017 09:31:00</publishTime>
+    </File>
+    <File Include="images/visa.png">
+      <publishTime>06/09/2017 09:30:50</publishTime>
+    </File>
+    <File Include="images/vocabularyFocusTag.jpg">
+      <publishTime>06/09/2017 09:30:50</publishTime>
+    </File>
+    <File Include="images/vocabularySummary.jpg">
+      <publishTime>06/09/2017 09:30:58</publishTime>
+    </File>
+    <File Include="images/weathermap.jpg">
+      <publishTime>06/09/2017 09:30:58</publishTime>
+    </File>
+    <File Include="images/wordinghp.jpg">
+      <publishTime>06/09/2017 09:30:52</publishTime>
+    </File>
+    <File Include="inativar.aspx">
+      <publishTime>06/11/2018 21:39:34</publishTime>
+    </File>
+    <File Include="index.aspx">
+      <publishTime>06/11/2018 21:39:43</publishTime>
+    </File>
+    <File Include="insert.aspx">
+      <publishTime>06/11/2018 21:40:00</publishTime>
+    </File>
+    <File Include="js/responsive-menu.js">
+      <publishTime>06/09/2017 09:29:12</publishTime>
+    </File>
+    <File Include="js/responsive-menu.min.js">
+      <publishTime>06/09/2017 09:29:12</publishTime>
+    </File>
+    <File Include="lesson1-1.aspx">
+      <publishTime>06/11/2018 21:39:47</publishTime>
+    </File>
+    <File Include="lesson1-10.aspx">
+      <publishTime>06/11/2018 21:39:34</publishTime>
+    </File>
+    <File Include="lesson1-2.aspx">
+      <publishTime>06/11/2018 21:39:54</publishTime>
+    </File>
+    <File Include="lesson1-3.aspx">
+      <publishTime>07/26/2018 21:17:21</publishTime>
+    </File>
+    <File Include="lesson1-4.aspx">
+      <publishTime>06/11/2018 21:39:39</publishTime>
+    </File>
+    <File Include="lesson1-5.aspx">
+      <publishTime>06/11/2018 21:39:43</publishTime>
+    </File>
+    <File Include="lesson1-6.aspx">
+      <publishTime>06/11/2018 21:39:49</publishTime>
+    </File>
+    <File Include="lesson1-7.aspx">
+      <publishTime>06/11/2018 21:40:06</publishTime>
+    </File>
+    <File Include="lesson1-8.aspx">
+      <publishTime>06/11/2018 21:39:51</publishTime>
+    </File>
+    <File Include="lesson1-9.aspx">
+      <publishTime>06/11/2018 21:39:33</publishTime>
+    </File>
+    <File Include="lesson11-15.aspx">
+      <publishTime>06/11/2018 21:39:37</publishTime>
+    </File>
+    <File Include="lesson2-1.aspx">
+      <publishTime>06/11/2018 21:39:46</publishTime>
+    </File>
+    <File Include="lesson2-11.aspx">
+      <publishTime>06/11/2018 21:39:45</publishTime>
+    </File>
+    <File Include="lesson2-12.aspx">
+      <publishTime>06/11/2018 21:40:02</publishTime>
+    </File>
+    <File Include="lesson2-13.aspx">
+      <publishTime>06/11/2018 21:39:31</publishTime>
+    </File>
+    <File Include="lesson2-14.aspx">
+      <publishTime>06/11/2018 21:39:23</publishTime>
+    </File>
+    <File Include="lesson2-15.aspx">
+      <publishTime>06/11/2018 21:39:36</publishTime>
+    </File>
+    <File Include="lesson2-16.aspx">
+      <publishTime>06/11/2018 21:39:50</publishTime>
+    </File>
+    <File Include="lesson2-17.aspx">
+      <publishTime>06/11/2018 21:39:33</publishTime>
+    </File>
+    <File Include="lesson2-18.aspx">
+      <publishTime>06/11/2018 21:39:53</publishTime>
+    </File>
+    <File Include="lesson2-19.aspx">
+      <publishTime>06/11/2018 21:39:31</publishTime>
+    </File>
+    <File Include="lesson2-20.aspx">
+      <publishTime>06/11/2018 21:39:42</publishTime>
+    </File>
+    <File Include="lesson2-20p2.aspx">
+      <publishTime>06/11/2018 21:39:56</publishTime>
+    </File>
+    <File Include="lesson3-21.aspx">
+      <publishTime>06/11/2018 21:40:07</publishTime>
+    </File>
+    <File Include="lesson3-22.aspx">
+      <publishTime>06/11/2018 21:39:18</publishTime>
+    </File>
+    <File Include="lesson3-23.aspx">
+      <publishTime>06/11/2018 21:39:54</publishTime>
+    </File>
+    <File Include="lesson3-24.aspx">
+      <publishTime>06/11/2018 21:39:44</publishTime>
+    </File>
+    <File Include="lesson3-25.aspx">
+      <publishTime>08/18/2018 08:50:27</publishTime>
+    </File>
+    <File Include="lesson3-26.aspx">
+      <publishTime>06/11/2018 21:39:30</publishTime>
+    </File>
+    <File Include="lesson3-27.aspx">
+      <publishTime>06/11/2018 21:40:01</publishTime>
+    </File>
+    <File Include="lesson3-28.aspx">
+      <publishTime>06/11/2018 21:39:55</publishTime>
+    </File>
+    <File Include="lesson3-29.aspx">
+      <publishTime>06/11/2018 21:39:56</publishTime>
+    </File>
+    <File Include="lesson3-30.aspx">
+      <publishTime>06/11/2018 21:39:19</publishTime>
+    </File>
+    <File Include="lesson4-31.aspx">
+      <publishTime>06/11/2018 21:39:23</publishTime>
+    </File>
+    <File Include="lesson4-32.aspx">
+      <publishTime>06/11/2018 21:39:53</publishTime>
+    </File>
+    <File Include="lesson4-33.aspx">
+      <publishTime>05/07/2018 22:00:03</publishTime>
+    </File>
+    <File Include="lesson4-34.aspx">
+      <publishTime>03/09/2018 21:37:25</publishTime>
+    </File>
+    <File Include="lesson4-35.aspx">
+      <publishTime>05/07/2018 22:00:02</publishTime>
+    </File>
+    <File Include="lesson4-36.aspx">
+      <publishTime>06/11/2018 21:39:29</publishTime>
+    </File>
+    <File Include="lesson4-37.aspx">
+      <publishTime>06/11/2018 21:39:31</publishTime>
+    </File>
+    <File Include="lesson4-38.aspx">
+      <publishTime>06/11/2018 21:39:35</publishTime>
+    </File>
+    <File Include="lesson4-39.aspx">
+      <publishTime>06/11/2018 21:39:39</publishTime>
+    </File>
+    <File Include="lesson4-40.aspx">
+      <publishTime>06/11/2018 21:40:04</publishTime>
+    </File>
+    <File Include="lesson5-41.aspx">
+      <publishTime>06/11/2018 21:39:51</publishTime>
+    </File>
+    <File Include="lesson5-42.aspx">
+      <publishTime>06/11/2018 21:39:21</publishTime>
+    </File>
+    <File Include="lesson5-43.aspx">
+      <publishTime>06/11/2018 21:39:24</publishTime>
+    </File>
+    <File Include="lesson5-44.aspx">
+      <publishTime>06/11/2018 21:39:41</publishTime>
+    </File>
+    <File Include="lesson5-45.aspx">
+      <publishTime>06/11/2018 21:39:23</publishTime>
+    </File>
+    <File Include="lesson5-46.aspx">
+      <publishTime>06/11/2018 21:39:29</publishTime>
+    </File>
+    <File Include="lesson5-47.aspx">
+      <publishTime>06/11/2018 21:40:05</publishTime>
+    </File>
+    <File Include="lesson5-48.aspx">
+      <publishTime>06/11/2018 21:39:17</publishTime>
+    </File>
+    <File Include="lesson5-49.aspx">
+      <publishTime>06/11/2018 21:39:44</publishTime>
+    </File>
+    <File Include="lesson5-50.aspx">
+      <publishTime>06/11/2018 21:40:01</publishTime>
+    </File>
+    <File Include="lesson6-10.aspx">
+      <publishTime>06/11/2018 21:40:07</publishTime>
+    </File>
+    <File Include="lesson6-51.aspx">
+      <publishTime>06/11/2018 21:39:39</publishTime>
+    </File>
+    <File Include="lesson6-52.aspx">
+      <publishTime>06/11/2018 21:39:17</publishTime>
+    </File>
+    <File Include="lesson6-53.aspx">
+      <publishTime>06/11/2018 21:39:32</publishTime>
+    </File>
+    <File Include="lesson6-54.aspx">
+      <publishTime>06/11/2018 21:39:52</publishTime>
+    </File>
+    <File Include="lesson6-55.aspx">
+      <publishTime>06/11/2018 21:39:20</publishTime>
+    </File>
+    <File Include="lesson6-56.aspx">
+      <publishTime>06/11/2018 21:39:17</publishTime>
+    </File>
+    <File Include="lesson6-57.aspx">
+      <publishTime>06/11/2018 21:39:17</publishTime>
+    </File>
+    <File Include="lesson6-58.aspx">
+      <publishTime>06/11/2018 21:39:25</publishTime>
+    </File>
+    <File Include="lesson6-59.aspx">
+      <publishTime>08/14/2018 03:56:06</publishTime>
+    </File>
+    <File Include="lesson6-60.aspx">
+      <publishTime>06/11/2018 21:40:06</publishTime>
+    </File>
+    <File Include="lesson7-61.aspx">
+      <publishTime>06/11/2018 21:39:52</publishTime>
+    </File>
+    <File Include="lesson7-62.aspx">
+      <publishTime>06/11/2018 21:39:38</publishTime>
+    </File>
+    <File Include="lesson7-63.aspx">
+      <publishTime>06/11/2018 21:39:16</publishTime>
+    </File>
+    <File Include="lesson7-64.aspx">
+      <publishTime>06/11/2018 21:39:55</publishTime>
+    </File>
+    <File Include="lesson7-65.aspx">
+      <publishTime>06/11/2018 21:39:16</publishTime>
+    </File>
+    <File Include="lesson7-66.aspx">
+      <publishTime>06/11/2018 21:39:19</publishTime>
+    </File>
+    <File Include="lesson7-67.aspx">
+      <publishTime>06/11/2018 21:39:44</publishTime>
+    </File>
+    <File Include="lesson7-68.aspx">
+      <publishTime>06/11/2018 21:39:30</publishTime>
+    </File>
+    <File Include="lesson7-69.aspx">
+      <publishTime>06/11/2018 21:39:49</publishTime>
+    </File>
+    <File Include="lesson7-70.aspx">
+      <publishTime>06/11/2018 21:39:39</publishTime>
+    </File>
+    <File Include="lesson8-71.aspx">
+      <publishTime>06/11/2018 21:39:54</publishTime>
+    </File>
+    <File Include="lesson8-72.aspx">
+      <publishTime>06/11/2018 21:39:26</publishTime>
+    </File>
+    <File Include="lesson8-73.aspx">
+      <publishTime>06/11/2018 21:39:41</publishTime>
+    </File>
+    <File Include="lesson8-74.aspx">
+      <publishTime>06/11/2018 21:39:20</publishTime>
+    </File>
+    <File Include="lesson8-75.aspx">
+      <publishTime>06/11/2018 21:39:50</publishTime>
+    </File>
+    <File Include="lesson8-76.aspx">
+      <publishTime>06/11/2018 21:39:32</publishTime>
+    </File>
+    <File Include="lesson8-77.aspx">
+      <publishTime>06/11/2018 21:39:32</publishTime>
+    </File>
+    <File Include="lesson8-78.aspx">
+      <publishTime>06/11/2018 21:39:29</publishTime>
+    </File>
+    <File Include="lesson8-79.aspx">
+      <publishTime>06/11/2018 21:39:33</publishTime>
+    </File>
+    <File Include="lesson8-80.aspx">
+      <publishTime>07/29/2018 16:09:43</publishTime>
+    </File>
+    <File Include="login.aspx">
+      <publishTime>06/11/2018 21:39:49</publishTime>
+    </File>
+    <File Include="menu.aspx">
+      <publishTime>03/19/2018 23:41:43</publishTime>
+    </File>
+    <File Include="Portuguese/Lesson1.aspx">
+      <publishTime>07/03/2018 19:56:13</publishTime>
+    </File>
+    <File Include="projeto5.aspx">
+      <publishTime>06/11/2018 21:39:20</publishTime>
+    </File>
+    <File Include="pt/exercicios.aspx">
+      <publishTime>08/14/2018 06:02:48</publishTime>
+    </File>
+    <File Include="pt/livro1.aspx">
+      <publishTime>08/14/2018 05:57:13</publishTime>
+    </File>
+    <File Include="pt/Livro2.aspx">
+      <publishTime>08/14/2018 05:57:14</publishTime>
+    </File>
+    <File Include="pt/Livro3.aspx">
+      <publishTime>08/14/2018 05:57:12</publishTime>
+    </File>
+    <File Include="pt/Livro4.aspx">
+      <publishTime>08/14/2018 05:57:09</publishTime>
+    </File>
+    <File Include="step1-5.aspx">
+      <publishTime>06/11/2018 21:39:24</publishTime>
+    </File>
+    <File Include="step11-15.aspx">
+      <publishTime>06/11/2018 21:39:51</publishTime>
+    </File>
+    <File Include="step16-20.aspx">
+      <publishTime>06/11/2018 21:39:22</publishTime>
+    </File>
+    <File Include="step21-25.aspx">
+      <publishTime>06/11/2018 21:40:06</publishTime>
+    </File>
+    <File Include="step26-30.aspx">
+      <publishTime>06/11/2018 21:40:04</publishTime>
+    </File>
+    <File Include="step6-10.aspx">
+      <publishTime>06/11/2018 21:39:46</publishTime>
+    </File>
+    <File Include="stepreview.aspx">
+      <publishTime>06/11/2018 21:39:27</publishTime>
+    </File>
+    <File Include="studentpage.aspx">
+      <publishTime>06/11/2018 21:39:39</publishTime>
+    </File>
+    <File Include="vendors/custom/bootstrap-theme.css">
+      <publishTime>06/09/2017 09:30:40</publishTime>
+    </File>
+    <File Include="vendors/custom/bootstrap-theme.css.map">
+      <publishTime>06/09/2017 09:30:42</publishTime>
+    </File>
+    <File Include="vendors/custom/bootstrap-theme.min.css">
+      <publishTime>06/09/2017 09:30:40</publishTime>
+    </File>
+    <File Include="vendors/custom/bootstrap-theme.min.css.map">
+      <publishTime>06/09/2017 09:30:40</publishTime>
+    </File>
+    <File Include="vendors/custom/bootstrap.css">
+      <publishTime>06/09/2017 09:30:42</publishTime>
+    </File>
+    <File Include="vendors/custom/bootstrap.css.map">
+      <publishTime>06/09/2017 09:30:42</publishTime>
+    </File>
+    <File Include="vendors/custom/bootstrap.min.css">
+      <publishTime>06/09/2017 09:30:42</publishTime>
+    </File>
+    <File Include="vendors/custom/bootstrap.min.css.map">
+      <publishTime>06/09/2017 09:30:42</publishTime>
+    </File>
+    <File Include="vendors/custom/custom.css">
+      <publishTime>06/09/2017 09:30:40</publishTime>
+    </File>
+    <File Include="vendors/custom/custom.min.css">
+      <publishTime>06/09/2017 09:30:42</publishTime>
+    </File>
+    <File Include="vendors/custom/font-awesome.css">
+      <publishTime>06/09/2017 09:30:42</publishTime>
+    </File>
+    <File Include="vendors/custom/font-awesome.css.map">
+      <publishTime>06/09/2017 09:30:42</publishTime>
+    </File>
+    <File Include="vendors/custom/font-awesome.min.css">
+      <publishTime>06/09/2017 09:30:42</publishTime>
+    </File>
+    <File Include="vendors/custom/nprogress.css">
+      <publishTime>06/09/2017 09:30:40</publishTime>
+    </File>
+    <File Include="vendors/js/bootstrap.js">
+      <publishTime>06/09/2017 09:30:42</publishTime>
+    </File>
+    <File Include="vendors/js/bootstrap.min.js">
+      <publishTime>06/09/2017 09:30:42</publishTime>
+    </File>
+    <File Include="vendors/js/Chart.bundle.js">
+      <publishTime>06/09/2017 09:30:44</publishTime>
+    </File>
+    <File Include="vendors/js/Chart.bundle.min.js">
+      <publishTime>06/09/2017 09:30:44</publishTime>
+    </File>
+    <File Include="vendors/js/Chart.js">
+      <publishTime>06/09/2017 09:30:42</publishTime>
+    </File>
+    <File Include="vendors/js/Chart.min.js">
+      <publishTime>06/09/2017 09:30:42</publishTime>
+    </File>
+    <File Include="vendors/js/custom.min.js">
+      <publishTime>06/09/2017 09:30:42</publishTime>
+    </File>
+    <File Include="vendors/js/fastclick.js">
+      <publishTime>06/09/2017 09:30:42</publishTime>
+    </File>
+    <File Include="vendors/js/jquery.js">
+      <publishTime>06/09/2017 09:30:42</publishTime>
+    </File>
+    <File Include="vendors/js/jquery.min.js">
+      <publishTime>06/09/2017 09:30:42</publishTime>
+    </File>
+    <File Include="vendors/js/jquery.min.map">
+      <publishTime>06/09/2017 09:30:42</publishTime>
+    </File>
+    <File Include="vendors/js/npm.js">
+      <publishTime>06/09/2017 09:30:42</publishTime>
+    </File>
+    <File Include="vendors/js/nprogress.js">
+      <publishTime>06/09/2017 09:30:42</publishTime>
+    </File>
+    <File Include="videx1.aspx">
+      <publishTime>06/11/2018 21:39:29</publishTime>
+    </File>
+    <File Include="videx10.aspx">
+      <publishTime>06/11/2018 21:39:50</publishTime>
+    </File>
+    <File Include="videx11.aspx">
+      <publishTime>06/11/2018 21:39:47</publishTime>
+    </File>
+    <File Include="videx2.aspx">
+      <publishTime>06/11/2018 21:39:52</publishTime>
+    </File>
+    <File Include="videx3.aspx">
+      <publishTime>06/11/2018 21:39:36</publishTime>
+    </File>
+    <File Include="videx4.aspx">
+      <publishTime>06/11/2018 21:39:40</publishTime>
+    </File>
+    <File Include="videx5.aspx">
+      <publishTime>06/11/2018 21:39:16</publishTime>
+    </File>
+    <File Include="videx6.aspx">
+      <publishTime>06/11/2018 21:39:38</publishTime>
+    </File>
+    <File Include="videx7.aspx">
+      <publishTime>06/11/2018 21:39:36</publishTime>
+    </File>
+    <File Include="videx8.aspx">
+      <publishTime>06/11/2018 21:39:07</publishTime>
+    </File>
+    <File Include="videx9.aspx">
+      <publishTime>06/11/2018 21:39:46</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>09/03/2018 21:49:04</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
