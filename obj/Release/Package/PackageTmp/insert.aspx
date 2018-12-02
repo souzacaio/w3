@@ -1,16 +1,20 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="insert.aspx.cs" Inherits="wording.insert" %>
 
-<!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
+    <form id="form1" runat="server" style="display:none">
     <div>
-    
-    </div>
+         <asp:TextBox ID="retorno" runat="server"></asp:TextBox>
+   </div>
+    <script>
+        $(document).ready(function(){
+            var texto = "";
+            setTimeout(function () {
+                $("#form1 #retorno").each(function () {
+                    texto = $(this).val();
+                });
+             
+                $(".txt-anotacao").val(texto);
+             },500);
+      });
+    </script>
     </form>
-</body>
-</html>

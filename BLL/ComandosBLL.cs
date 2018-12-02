@@ -66,10 +66,26 @@ namespace wording.BLL
             string Valor = "select dbo.GeraCodigo('"+Campo.Session+"') Valor";
 
             return Gera.GeraFuncao(Valor);
-            
-            
+        
+        }
 
-        } 
+
+
+        public void insert_anotacao(string id, string Campo, string segmento)
+        {
+            AcessoaDados Gera = new AcessoaDados();
+
+            string insert = "insert into anotacoes values (" + id + ",'" + Campo + "',1,'" + segmento + "')"; ;
+            Gera.Query(insert);
+        }
+
+        public DataTable consulta_anotacoes(string id, string segmento)
+        {
+            AcessoaDados Gera = new AcessoaDados();
+
+            string consulta = "select *from anotacoes where id_aluno='"+id+"' ";
+            return Gera.Reader(consulta);
+        }
 
         
     }

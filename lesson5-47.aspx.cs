@@ -34,7 +34,7 @@ namespace wording
                 else
                 {
                     Pcampos.Session = Convert.ToInt32(Request.Cookies["IDUSU"].Value);
-                    Label1.Text = Convert.ToString(Session["descricao"]) + ", Logged !  | ";
+                    Label1.Text = Convert.ToString(Request.Cookies["NOME"].Value + ", Logged !  | ");
 
                 }
 
