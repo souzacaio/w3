@@ -1,0 +1,40 @@
+C:\Users\caio\Documents\Visual Studio 2012\Projects\wording\wording\bin\wording.dll
+C:\Users\caio\Documents\Visual Studio 2012\Projects\wording\wording\bin\wording.pdb
+C:\Users\caio\Documents\Visual Studio 2012\Projects\wording\wording\obj\Debug\wording.dll
+C:\Users\caio\Documents\Visual Studio 2012\Projects\wording\wording\obj\Debug\wording.pdb
+E:\wording\bin\wording.dll
+E:\wording\bin\wording.pdb
+E:\wording\obj\Debug\wording.dll
+E:\wording\obj\Debug\wording.pdb
+C:\Users\caio\Documents\Visual Studio 2012\Projects\wording4\bin\wording.dll
+C:\Users\caio\Documents\Visual Studio 2012\Projects\wording4\bin\wording.pdb
+C:\Users\caio\Documents\Visual Studio 2012\Projects\wording4\obj\Debug\wording.dll
+C:\Users\caio\Documents\Visual Studio 2012\Projects\wording4\obj\Debug\wording.pdb
+C:\Users\caio\Documents\Visual Studio 2012\Projects\wording4\obj\Debug\wording.csprojResolveAssemblyReference.cache
+C:\Users\caio.souza\Desktop\Nova pasta\wording4\bin\wording.dll
+C:\Users\caio.souza\Desktop\Nova pasta\wording4\bin\wording.pdb
+C:\Users\caio.souza\Desktop\Nova pasta\wording4\obj\Debug\wording.csprojResolveAssemblyReference.cache
+C:\Users\caio.souza\Desktop\Nova pasta\wording4\obj\Debug\wording.dll
+C:\Users\caio.souza\Desktop\Nova pasta\wording4\obj\Debug\wording.pdb
+C:\Users\caio\Documents\Desktop\wording5\bin\wording.dll
+C:\Users\caio\Documents\Desktop\wording5\bin\wording.pdb
+C:\Users\caio\Documents\Desktop\wording5\obj\Debug\wording.csprojResolveAssemblyReference.cache
+C:\Users\caio\Documents\Desktop\wording5\obj\Debug\wording.dll
+C:\Users\caio\Documents\Desktop\wording5\obj\Debug\wording.pdb
+C:\Users\caio.souza\Desktop\w3educa\bin\wording.dll
+C:\Users\caio.souza\Desktop\w3educa\bin\wording.pdb
+C:\Users\caio.souza\Desktop\w3educa\obj\Debug\wording.csprojResolveAssemblyReference.cache
+C:\Users\caio.souza\Desktop\w3educa\obj\Debug\wording.dll
+C:\Users\caio.souza\Desktop\w3educa\obj\Debug\wording.pdb
+C:\Users\caio\Documents\Desktop\w3educa2\bin\wording.dll
+C:\Users\caio\Documents\Desktop\w3educa2\bin\wording.pdb
+C:\Users\caio\Documents\Desktop\w3educa2\obj\Debug\wording.csprojResolveAssemblyReference.cache
+C:\Users\caio\Documents\Desktop\w3educa2\obj\Debug\wording.dll
+C:\Users\caio\Documents\Desktop\w3educa2\obj\Debug\wording.pdb
+C:\Users\Diego Ramos\Desktop\w3\bin\wording.dll.config
+C:\Users\Diego Ramos\Desktop\w3\bin\wording.dll
+C:\Users\Diego Ramos\Desktop\w3\bin\wording.pdb
+C:\Users\Diego Ramos\Desktop\w3\obj\Debug\wording.csprojAssemblyReference.cache
+C:\Users\Diego Ramos\Desktop\w3\obj\Debug\wording.csproj.CoreCompileInputs.cache
+C:\Users\Diego Ramos\Desktop\w3\obj\Debug\wording.dll
+C:\Users\Diego Ramos\Desktop\w3\obj\Debug\wording.pdb
