@@ -33,11 +33,11 @@ namespace wording
                 // boas vindas
                 if (Pcampos.Session == 3)
                 {
-                    Label1.Text = "<table><tr><td><img src='images/acesso22.png' width='55px' /></td><td>Welcome,<strong> " + Convert.ToString(Request.Cookies["NOME"].Value) + "</strong> ! <br>Access hour date " + DateTime.Now + "<br><a href='./administrador.aspx'><font color='blue' face='verdana' size='1'>Administrator Page</font></a></td></tr></table>";
+                    Label1.Text = "<table><tr><td></td><td>Welcome,<strong> " + Convert.ToString(Request.Cookies["NOME"].Value) + "</strong> ! <br>Access hour date " + DateTime.Now + "<br><a href='./administrador.aspx'><font color='blue' face='verdana' size='1'>Administrator Page</font></a></td></tr></table>";
                 }
                 else
                 {
-                    Label1.Text = "<table><tr><td><img src='images/acesso22.png' width='55px' /></td><td>Welcome,<strong> " + Convert.ToString(Request.Cookies["NOME"].Value) + "</strong> ! <br>Access hour date " + DateTime.Now + "</td></tr></table>";
+                    Label1.Text = "<table><tr><td></td><td>Welcome,<strong> " + Convert.ToString(Request.Cookies["NOME"].Value) + "</strong> ! <br>Access hour date " + DateTime.Now + "</td></tr></table>";
                 }
 
               
@@ -100,7 +100,7 @@ namespace wording
 
        } 
    }
-
+       
 
         protected void Button1_Click(object sender, EventArgs e)
         {

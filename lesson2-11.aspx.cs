@@ -274,6 +274,18 @@ namespace wording
                         TextBox220.Text = row[222].ToString();
                         TextBox221.Text = row[223].ToString();
                         TextBox222.Text = row[224].ToString();
+                        TextBox223.Text = row[225].ToString();
+                        TextBox224.Text = row[226].ToString();
+                        TextBox225.Text = row[227].ToString();
+                        TextBox226.Text = row[228].ToString();
+                        TextBox227.Text = row[229].ToString();
+                        TextBox228.Text = row[230].ToString();
+                        TextBox229.Text = row[231].ToString();
+                        TextBox230.Text = row[232].ToString();
+                        TextBox231.Text = row[233].ToString();
+                        TextBox232.Text = row[234].ToString();
+                        TextBox233.Text = row[235].ToString();
+                        TextBox234.Text = row[236].ToString();
 
 
                     }

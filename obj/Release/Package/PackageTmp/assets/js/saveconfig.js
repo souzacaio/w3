@@ -171,9 +171,16 @@ $(document).ready(function () {
         sessionStorage.setItem("contador", x);
 
 
-        xml.open("GET", "../insert.aspx?comando=" + exec + "", false);
-        xml.send(null);
         console.log(exec);
+
+        $.ajax({
+
+            url: "../insert.aspx",
+            type:'GET',
+            data: {
+                     comando: exec
+                  },
+        });
     });
 
     $('body').append('<script src="assets/js/sweetalert2.min.js"></script><link rel="stylesheet" href="assets/css/sweetalert2.min.css">')
@@ -224,10 +231,31 @@ function closemodal() {
     $("html").removeAttr('style');
 }
 
+function qualOS() {
+    var x = "\r\n";
+    if (navigator.appVersion.indexOf("Win") != -1) x = '\r\n';
+    if (navigator.appVersion.indexOf("Mac") != -1) x = '\r';
+    if (navigator.appVersion.indexOf("X11") != -1) x = '\n';
+    if (navigator.appVersion.indexOf("Linux") != -1) x = '\n';
+    return x;
+}
+
+function testar() {
+
+    
+}
+
 function anotacoes() {
+
     var texto = $(".txt-anotacao").val();
+
+    var linhas = texto.split(/\r\n|\r|\n/g);
+
+    var textoFinal = linhas.join(qualOS());
+
+
     $("#modal").css("z-index", "1");
-    if (texto == "") {
+    if (textoFinal == "") {
         swal({
             type: 'error',
             title: 'Oops...',
@@ -241,7 +269,7 @@ function anotacoes() {
                 url: "../insert.aspx",
                 data: {
                     tipo: '2',
-                    comando: '' + texto + '',
+                    comando: '' + textoFinal + '',
                     id_usuario: $.cookie("IDUSU"),
                     segmento: $.cookie("BOOK")
                 }

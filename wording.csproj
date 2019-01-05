@@ -56,12 +56,15 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\css\fullcalendar.min.css" />
+    <Content Include="assets\css\fullcalendar.print.css" />
     <Content Include="assets\css\font-awesome.min.css" />
     <Content Include="assets\css\ie8.css" />
     <Content Include="assets\css\ie9.css" />
     <Content Include="assets\css\main.css" />
     <Content Include="assets\css\sweetalert2.min.css" />
     <Content Include="assets\fonts\fontawesome-webfont.svg" />
+    <Content Include="assets\js\moment.min.js" />
     <Content Include="assets\js\ie\backgroundsize.min.htc" />
     <Content Include="assets\js\ie\html5shiv.js" />
     <Content Include="assets\js\ie\PIE.htc" />
